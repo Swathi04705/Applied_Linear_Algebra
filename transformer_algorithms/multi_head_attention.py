@@ -1,5 +1,5 @@
 import numpy as np
-from attention import attention
+from .attention import attention
 
 
 def multihead_attention(X, Z, Wq, Wk, Wv, Wo, Mask):
